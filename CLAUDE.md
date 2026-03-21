@@ -42,21 +42,58 @@
 
 见 `notes/README.md`
 
-## API 配置
+## Python 执行环境
+
+**所有 Python 代码必须在 `learn-claude-code` conda 环境中运行**，不得使用系统默认 Python。
 
 ```bash
-# 复制 .env.example 为 .env 并填入你的 API 信息
-cp .env.example .env
+# 运行任意课程脚本
+conda run -n learn-claude-code python agents/s01_agent_loop.py
+
+# 或激活环境后运行
+conda activate learn-claude-code
+python agents/s01_agent_loop.py
 ```
 
-兼容 API 选项参见 `.env.example` 中的注释表格。
+安装新依赖也使用该环境：
+
+```bash
+conda run -n learn-claude-code pip install <包名> -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+```
+
+> **注意**：清华镜像（pypi.tuna.tsinghua.edu.cn）在该机器上存在 SSL 问题，统一使用阿里云镜像。
+
+## API 配置
+
+当前已配置 MiniMax（国内）：
+- `ANTHROPIC_BASE_URL=https://api.minimaxi.com/anthropic`
+- `MODEL_ID=MiniMax-M2.7`
+- API Key 见 `.env`（已加入 .gitignore，不会提交）
 
 ## 笔记规范
 
-- 每节课笔记存于 `notes/phaseX-*/sXX-*.md`
-- 笔记包含：核心概念、关键代码片段、苏格拉底问答记录、个人理解总结
-- 阶段复盘存于 `notes/review/phaseX-review.md`
-- 每节课结束后 git commit 笔记文件
+每节课笔记存于 `notes/phaseX-*/sXX-*.md`，阶段复盘存于 `notes/review/phaseX-review.md`，每节课结束后 git commit 笔记文件。
+
+### 每节课笔记必须包含以下三个部分
+
+**一、知识总结**
+- 本节核心概念（一句话本质 + 关键设计决策表）
+- 关键代码片段与对应原理
+- 架构变更对比（之前 vs 之后）
+- 可泛化原则（这节课的知识在其他领域的应用）
+
+**二、学习过程反思**（苏格拉底环节的复盘）
+- 我的回答中哪里是正确的
+- 我犯的错误或思维漏洞（具体指出是哪道题、错在哪里、正确理解是什么）
+- 思考不够清晰的地方（模糊地带，还需巩固的概念）
+
+**三、教学引导记录**
+- 哪个类比或问题让我产生了顿悟
+- 哪个知识点需要在后续课程中继续关注（跨课程线索）
+
+### 笔记整理流程
+
+每节课结束后，Claude 根据当次对话自动整理以上三部分内容，呈现给用户确认，用户确认后写入文件并 git commit。
 
 ## 参考资料
 
