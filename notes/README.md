@@ -8,7 +8,7 @@
 |---|------|----------|------|------|----------|
 | **第一阶段：循环** |
 | 1 | s01 - Agent Loop | AI 模型如何从"只能说话"变成"能做事"？ | ✅ 已完成 | [→](phase1-the-loop/s01-agent-loop.md) | 2026-03-21 |
-| 2 | s02 - Tool Use | 怎样让 Agent 拥有更多能力而不修改核心循环？ | ⬜ 未开始 | [→](phase1-the-loop/s02-tool-use.md) | — |
+| 2 | s02 - Tool Use | 怎样让 Agent 拥有更多能力而不修改核心循环？ | ✅ 已完成 | [→](phase1-the-loop/s02-tool-use.md) | 2026-03-21 |
 | **第二阶段：规划与知识** |
 | 3 | s03 - TodoWrite | 为什么 Agent 做长任务会"跑偏"？ | ⬜ 未开始 | [→](phase2-planning-knowledge/s03-todo-write.md) | — |
 | 4 | s04 - Subagent | 为什么需要"用完即扔"的子智能体？ | ⬜ 未开始 | [→](phase2-planning-knowledge/s04-subagent.md) | — |
