@@ -12,7 +12,7 @@
 | **第二阶段：规划与知识** |
 | 3 | s03 - TodoWrite | 为什么 Agent 做长任务会"跑偏"？ | ✅ 已完成 | [→](phase2-planning-knowledge/s03-todo-write.md) | 2026-03-26 |
 | 4 | s04 - Subagent | 为什么需要"用完即扔"的子智能体？ | ✅ 已完成 | [→](phase2-planning-knowledge/s04-subagent.md) | 2026-03-26 |
-| 5 | s05 - Skill Loading | 怎样让 Agent 拥有领域知识而不浪费 token？ | ⬜ 未开始 | [→](phase2-planning-knowledge/s05-skill-loading.md) | — |
+| 5 | s05 - Skill Loading | 怎样让 Agent 拥有领域知识而不浪费 token？ | ✅ 已完成 | [→](phase2-planning-knowledge/s05-skill-loading.md) | 2026-03-26 |
 | 6 | s06 - Context Compact | 上下文窗口满了怎么办？ | ⬜ 未开始 | [→](phase2-planning-knowledge/s06-context-compact.md) | — |
 | **第三阶段：持久化** |
 | 7 | s07 - Task System | 如何让 Agent 的目标比一次对话更持久？ | ⬜ 未开始 | [→](phase3-persistence/s07-task-system.md) | — |
