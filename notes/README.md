@@ -16,7 +16,7 @@
 | 6 | s06 - Context Compact | 上下文窗口满了怎么办？ | ✅ 已完成 | [→](phase2-planning-knowledge/s06-context-compact.md) | 2026-03-26 |
 | **第三阶段：持久化** |
 | 7 | s07 - Task System | 如何让 Agent 的目标比一次对话更持久？ | ✅ 已完成 | [→](phase3-persistence/s07-task-system.md) | 2026-03-26 |
-| 8 | s08 - Background Tasks | Agent 等待慢操作时为什么不能干别的？ | ⬜ 未开始 | [→](phase3-persistence/s08-background-tasks.md) | — |
+| 8 | s08 - Background Tasks | Agent 等待慢操作时为什么不能干别的？ | ✅ 已完成 | [→](phase3-persistence/s08-background-tasks.md) | 2026-03-27 |
 | **第四阶段：团队** |
 | 9 | s09 - Agent Teams | 多个 Agent 如何协同工作？ | ⬜ 未开始 | [→](phase4-teams/s09-agent-teams.md) | — |
 | 10 | s10 - Team Protocols | 队友之间怎样进行结构化协商？ | ⬜ 未开始 | [→](phase4-teams/s10-team-protocols.md) | — |
