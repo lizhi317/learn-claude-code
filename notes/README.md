@@ -18,7 +18,7 @@
 | 7 | s07 - Task System | 如何让 Agent 的目标比一次对话更持久？ | ✅ 已完成 | [→](phase3-persistence/s07-task-system.md) | 2026-03-26 |
 | 8 | s08 - Background Tasks | Agent 等待慢操作时为什么不能干别的？ | ✅ 已完成 | [→](phase3-persistence/s08-background-tasks.md) | 2026-03-27 |
 | **第四阶段：团队** |
-| 9 | s09 - Agent Teams | 多个 Agent 如何协同工作？ | ⬜ 未开始 | [→](phase4-teams/s09-agent-teams.md) | — |
+| 9 | s09 - Agent Teams | 多个 Agent 如何协同工作？ | ✅ 已完成 | [→](phase4-teams/s09-agent-teams.md) | 2026-03-29 |
 | 10 | s10 - Team Protocols | 队友之间怎样进行结构化协商？ | ⬜ 未开始 | [→](phase4-teams/s10-team-protocols.md) | — |
 | 11 | s11 - Autonomous Agents | 怎样让 Agent 从"被指派"变成"自己找活干"？ | ⬜ 未开始 | [→](phase4-teams/s11-autonomous-agents.md) | — |
 | 12 | s12 - Worktree Isolation | 多个 Agent 同时修改代码怎样不冲突？ | ⬜ 未开始 | [→](phase4-teams/s12-worktree-task-isolation.md) | — |
