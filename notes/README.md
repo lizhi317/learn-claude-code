@@ -21,7 +21,7 @@
 | 9 | s09 - Agent Teams | 多个 Agent 如何协同工作？ | ✅ 已完成 | [→](phase4-teams/s09-agent-teams.md) | 2026-03-29 |
 | 10 | s10 - Team Protocols | 队友之间怎样进行结构化协商？ | ✅ 已完成 | [→](phase4-teams/s10-team-protocols.md) | 2026-03-29 |
 | 11 | s11 - Autonomous Agents | 怎样让 Agent 从"被指派"变成"自己找活干"？ | ✅ 已完成 | [→](phase4-teams/s11-autonomous-agents.md) | 2026-03-29 |
-| 12 | s12 - Worktree Isolation | 多个 Agent 同时修改代码怎样不冲突？ | ⬜ 未开始 | [→](phase4-teams/s12-worktree-task-isolation.md) | — |
+| 12 | s12 - Worktree Isolation | 多个 Agent 同时修改代码怎样不冲突？ | ✅ 已完成 | [→](phase4-teams/s12-worktree-task-isolation.md) | 2026-03-29 |
 
 **状态说明**: ⬜ 未开始 | 🔄 进行中 | ✅ 已完成
 
